@@ -1,12 +1,69 @@
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #494949;
+}
+
+article {
+  padding-top: 100px;
+}
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fff;
+  color: #090920;
+  font-size: 16px;
+  line-height: normal;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25em;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 1.17em;
+  line-height: 1.25em;
+  margin: 15px 0;
+}
+
+li {
+  float: right;
+  padding: 30px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0, 0, 0, 0.5);
   float: left;
   position: fixed;
+  width: 100%;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+.author {
+  margin: 15px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.large-pic {
   width: 100%;
 }
 
@@ -15,38 +72,20 @@ nav {
   width: 100px;
 }
 
-.large-pic {
-  width: 100%;
-}
-
 .medium-pic {
   width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
 }
 
 .right {
   float: right;
 }
 
-ul {
-  list-style-type: none;
-  float: right;
+.story-text {
+  line-height: 1.25em;
 }
 
-li {
-  float: right;
-  padding: 30px;
-}
-
-article {
-  padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
+.left,
+.right {
+  float: left;
   width: 50%;
 }
